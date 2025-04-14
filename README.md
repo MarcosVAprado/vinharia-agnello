@@ -8,5 +8,5 @@ Gustavo Garcia Silva - RM: 562078
 Gustavo Oliveira Barroso - RM: 565705
 Nicolas Santana Gará - RM: 561461
 
-https://github.com/MarcosVAprado/vinharia-agnello.git
+https://marcosvaprado.github.io/vinharia-agnello/
 
