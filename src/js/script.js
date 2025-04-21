@@ -58,3 +58,15 @@ if (safra >= 2020) {
   classificacaoSafra = "Vinho antigo";
   }
   
+  // Exibição no console
+  console.log("======= Cadastro de Vinho =======");
+  console.log("Nome: " + nomeVinho);
+  console.log("Tipo: " + tipoVinho);
+  console.log("Safra: " + safra + " (" + classificacaoSafra + ")");
+  console.log("Quantidade em estoque: " + estoque);
+  
+  // Verificação de estoque
+  if (estoque < 5) {
+    console.log("⚠️ ESTOQUE BAIXO");
+  }
+  console.log("=================================");
