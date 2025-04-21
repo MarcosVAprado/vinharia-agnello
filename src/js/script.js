@@ -67,7 +67,7 @@ if (safra >= 2020) {
   console.log("Tipo: " + tipoVinho);
   console.log("Safra: " + safra + " (" + classificacaoSafra + ")");
   console.log("Quantidade em estoque: " + estoque);
-  console.log(`Status do Estoque: ${mensagemEstoque}`);
+  console.log(`Status do Estoque: ${estoque}`);
   
   // Verificação de estoque
   if (estoque < 5) {
