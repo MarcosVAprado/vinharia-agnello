@@ -43,7 +43,7 @@ do {
 estoque = parseInt(estoque);
 
 // Verificação de estoque
-let mensagemEstoque = quantidadeEstoque < 5 ? "ESTOQUE BAIXO" : "Estoque adequado";
+let mensagemEstoque = estoque < 5 ? "ESTOQUE BAIXO" : "Estoque adequado";
 
 // Mensagem de confirmação
 alert("Cadastro realizado!");
