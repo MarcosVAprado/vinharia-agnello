@@ -73,4 +73,4 @@ if (safra >= 2020) {
   if (estoque < 5) {
     console.log("⚠️ ESTOQUE BAIXO");
   }
-  console.log("=================================");
+  
