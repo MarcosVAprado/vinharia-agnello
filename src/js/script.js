@@ -42,14 +42,14 @@ do {
 } while (isNaN(estoque) || parseInt(estoque) < 0);
 estoque = parseInt(estoque);
 
+// Verificação de estoque
+let mensagemEstoque = quantidadeEstoque < 5 ? "ESTOQUE BAIXO" : "Estoque adequado";
+
 // Mensagem de confirmação
 alert("Cadastro realizado!");
 
 // Alerta antes da exibição
 alert("A seguir, veja os detalhes do vinho no console.");
-  
-// Verificação de estoque
-let mensagemEstoque = quantidadeEstoque < 5 ? "ESTOQUE BAIXO" : "Estoque adequado";
 
 // Classificação da safra
 let classificacaoSafra;
