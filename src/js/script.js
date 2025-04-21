@@ -24,4 +24,16 @@ function pedirInformacao(mensagem) {
     tipoVinho !== "rosé" &&
     tipoVinho !== "rose" // aceita rosé sem acento
   );
+
+  // Capitaliza a primeira letra para exibir bonito no console
+  tipoVinho = tipoVinho.charAt(0).toUpperCase() + tipoVinho.slice(1);
+  
+  // Safra
+  let safra;
+  do {
+    safra = pedirInformacao("Digite o ano da safra:");
+  } while (isNaN(safra) || parseInt(safra) <= 0);
+  safra = parseInt(safra);
+  
+
   
