@@ -48,6 +48,9 @@ alert("Cadastro realizado!");
 // Alerta antes da exibição
 alert("A seguir, veja os detalhes do vinho no console.");
   
+// Verificação de estoque
+let mensagemEstoque = quantidadeEstoque < 5 ? "ESTOQUE BAIXO" : "Estoque adequado";
+
 // Classificação da safra
 let classificacaoSafra;
 if (safra >= 2020) {
@@ -64,6 +67,7 @@ if (safra >= 2020) {
   console.log("Tipo: " + tipoVinho);
   console.log("Safra: " + safra + " (" + classificacaoSafra + ")");
   console.log("Quantidade em estoque: " + estoque);
+  console.log(`Status do Estoque: ${mensagemEstoque}`);
   
   // Verificação de estoque
   if (estoque < 5) {
