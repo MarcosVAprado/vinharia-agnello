@@ -45,4 +45,16 @@ estoque = parseInt(estoque);
 // Mensagem de confirmação
 alert("Cadastro realizado!");
 
+// Alerta antes da exibição
+alert("A seguir, veja os detalhes do vinho no console.");
+  
+// Classificação da safra
+let classificacaoSafra;
+if (safra >= 2020) {
+  classificacaoSafra = "Vinho jovem";
+} else if (safra >= 2015 && safra <= 2019) {
+  classificacaoSafra = "Vinho amadurecido";
+} else {
+  classificacaoSafra = "Vinho antigo";
+  }
   
