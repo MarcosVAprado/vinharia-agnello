@@ -35,5 +35,14 @@ function pedirInformacao(mensagem) {
   } while (isNaN(safra) || parseInt(safra) <= 0);
   safra = parseInt(safra);
   
+// Estoque
+let estoque;
+do {
+  estoque = pedirInformacao("Digite a quantidade em estoque:");
+} while (isNaN(estoque) || parseInt(estoque) < 0);
+estoque = parseInt(estoque);
+
+// Mensagem de confirmação
+alert("Cadastro realizado!");
 
   
